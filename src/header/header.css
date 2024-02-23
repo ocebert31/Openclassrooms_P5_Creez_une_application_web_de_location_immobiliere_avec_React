@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px 0px 50px;
+  background-color: #ffffff;
+}
+.header__left img {
+  width: 100px;
+}
+
+.style-accueil {
+  padding-right: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+.style-accueil:hover {
+  text-decoration: underline;
+}
+.style-apropos {
+  padding-left: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+.style-apropos:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=header.css.map */
