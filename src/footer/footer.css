@@ -1,0 +1,14 @@
+.footer {
+  background-color: black;
+  padding-top: 30px;
+}
+.footer_top img {
+  width: 70px;
+  padding-bottom: 20px;
+}
+.footer_bottom img {
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+/*# sourceMappingURL=footer.css.map */
