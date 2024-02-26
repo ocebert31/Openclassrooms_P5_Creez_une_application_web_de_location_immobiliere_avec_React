@@ -1,12 +1,13 @@
 import React from 'react';
-import PhotoAccueil from "./image-o.png"
 import './banner.scss';
 
 function Banner() {
   return (
-    <div className='style-banner'>
-      <img className="photo-desktop" src={PhotoAccueil} alt="Bannière de la page d'accueil" />
+    <div class="banner">
+      <div className='film'></div>
+      <p>Chez vous, partout et ailleurs</p>
     </div>
+  
   );
 }
 

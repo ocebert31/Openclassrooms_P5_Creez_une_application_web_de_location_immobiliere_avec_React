@@ -1,4 +1,3 @@
-$primary-color: #ffffff;
 $padding-style: 20px;
 $color-initial-link: inherit;
 $any-underline: none;
@@ -9,11 +8,10 @@ $style-underline: underline;
     justify-content: space-between;
     align-items: center;
     padding: 40px 50px 0px 50px;
-    background-color: $primary-color; // Utilisation de la variable $primary-color comme couleur de fond du header
 
     &__left {
         img {
-            width: 100px; // Ajustez la taille de l'image selon vos besoins
+            width: 100px;
         }
     }
 }
@@ -25,7 +23,7 @@ $style-underline: underline;
         color: $color-initial-link;
 
         &:hover {
-            text-decoration: $style-underline; // Supprime le soulignement au survol et au focus
+            text-decoration: $style-underline;
         }
     }
 
@@ -35,7 +33,7 @@ $style-underline: underline;
         color: $color-initial-link;
 
         &:hover {
-            text-decoration: $style-underline; // Supprime le soulignement au survol et au focus
+            text-decoration: $style-underline;
         }
     }
 }
