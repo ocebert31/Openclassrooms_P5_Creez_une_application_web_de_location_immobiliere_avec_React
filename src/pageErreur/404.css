@@ -1,0 +1,20 @@
+.style-404 {
+  font-size: 130px;
+  font-weight: 700;
+  color: #FF6060;
+  margin: 0;
+}
+
+.information-erreur {
+  font-size: 25px;
+  color: #FF6060;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.lien-retour {
+  text-decoration: underline;
+  color: inherit;
+}
+
+/*# sourceMappingURL=404.css.map */

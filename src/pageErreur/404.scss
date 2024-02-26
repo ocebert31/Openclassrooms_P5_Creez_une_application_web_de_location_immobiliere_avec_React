@@ -1,0 +1,21 @@
+$color-primary: #FF6060;
+$margin: 0;
+
+.style-404 {
+    font-size:  130px;
+    font-weight: 700;
+    color: $color-primary;
+    margin: $margin; 
+}
+
+.information-erreur {
+    font-size: 25px;
+    color: $color-primary;
+    margin: $margin;
+    padding-bottom: 50px;
+}
+
+.lien-retour {
+    text-decoration: underline;
+    color: inherit;
+}

@@ -1,9 +1,11 @@
 import React from "react"
+import Erreur404 from "../pageErreur/404"
 
 export default function Error() {
     return (
         <div>
-            <h1>Erreur dans l'url</h1>
+            <Erreur404 />
+            <br />
         </div>
     )
 }
