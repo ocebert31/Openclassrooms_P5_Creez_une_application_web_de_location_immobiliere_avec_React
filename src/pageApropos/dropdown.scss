@@ -1,0 +1,41 @@
+$alignement: left;
+
+.dropdown {
+  display: inline-block;
+  width: 70%;
+  padding-bottom: 15px;
+
+  &-header {
+    background-color: #FF6060;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: $alignement;
+  }
+
+  &-content {
+    background-color: rgba(246, 246, 246, 0.45);
+    text-align: $alignement;
+    font-size: 18px;
+    transition: max-height 0.5s ease;
+    max-height: 0; 
+    overflow: hidden; 
+  }
+
+}
+
+.arrow {
+  float: right;
+  transition: transform 0.5s ease;
+}
+
+.open {
+  .arrow {
+    transform: rotate(-180deg);
+  }
+}
+
+.dropdown.open .dropdown-content {
+  max-height: 200px;
+}

@@ -4,8 +4,10 @@ import BannerAbout from "./banner-image.png"
 
 function bannerAbout () {
     return (
-        <div className="bannerApropos">
-            <img src={BannerAbout} alt="décort de la page à propos" />
+        <div>
+            <div className="bannerApropos">
+                <img src={BannerAbout} alt="décort de la page à propos" />
+            </div>
         </div>
     )
 }
