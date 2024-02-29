@@ -1,0 +1,26 @@
+.style-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.position-tag {
+    display: flex;
+}
+
+.container-dropdown {
+    display: flex;
+    margin: 0px 65px 20px 65px;
+}
+
+.dropdown-spacing {
+    padding: 30px;
+}
+
+.position-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 65px 20px 65px;
+}
+
+.position-info-proprietaire {
+    align-items: baseline;
+}

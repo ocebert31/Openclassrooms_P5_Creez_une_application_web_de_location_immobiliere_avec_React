@@ -1,0 +1,33 @@
+$tailleArrow: 7vw;
+$positionArrow: 5%;
+
+
+.style-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .main-image {
+        width: 100%;
+        padding: 25px 5%;
+    }
+
+    .arrow-container {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .arrow {
+            width: $tailleArrow;
+            height: $tailleArrow;
+        }
+
+        &.back {
+            left: $positionArrow;
+        }
+
+        &.next {
+            right: $positionArrow;
+        }
+    }
+}
