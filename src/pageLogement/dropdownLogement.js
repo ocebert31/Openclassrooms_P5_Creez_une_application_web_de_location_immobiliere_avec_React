@@ -1,10 +1,10 @@
 import React from 'react';
-import InfoProprietaire from './infoProprietaire';
-import StarRating from './StarRating'; // Importer le composant StarRating
+import Dropdowns from "../pageApropos/dropdown";
+import "./dropdownLogement.scss"
 import { useParams } from 'react-router-dom'; // Importer useParams pour récupérer les paramètres d'URL
 import jsonData from '../recuperation-donnee/logement.json';
 
-function ContainerInfoProprietaire () {
+function Dropdown () {
     const { id } = useParams(); // Récupérer l'ID de l'URL
 
     // Filtrer les données JSON pour récupérer uniquement l'élément correspondant à l'ID de l'URL
@@ -14,13 +14,14 @@ function ContainerInfoProprietaire () {
     if (!selectedItem) {
         return <div>Aucun logement trouvé pour cet ID.</div>;
     }
-
+    
     return (
-        <div>
-            <InfoProprietaire id={selectedItem.id} name={selectedItem.host.name} picture={selectedItem.host.picture}/>
-            <StarRating rating={selectedItem.rating} />
+        <div className='container-dropdown'>
+            <Dropdowns title="Description" options={[selectedItem.description]} />
+            <div className="dropdown-spacing"></div>
+            <Dropdowns title="Equipements" options={selectedItem.equipments} />
         </div>
     )
 }
 
-export default ContainerInfoProprietaire;
+export default Dropdown;
