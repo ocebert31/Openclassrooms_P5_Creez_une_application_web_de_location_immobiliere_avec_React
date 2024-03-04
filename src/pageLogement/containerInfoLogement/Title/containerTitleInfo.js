@@ -1,7 +1,7 @@
 import React from 'react';
 import "./containerTitleInfo.scss";
 import TitleInfo from './titleInfo';
-import DataFetcher from './dataFetcher';
+import DataFetcher from '../../../recuperation-donnee/dataFetcher';
 
 function ContainerTitleInfo() {
     return (

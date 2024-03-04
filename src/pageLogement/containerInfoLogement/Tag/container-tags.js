@@ -1,5 +1,5 @@
 import React from 'react';
-import DataFetcher from './dataFetcher';
+import DataFetcher from '../../../recuperation-donnee/dataFetcher';
 import "./container-tags.scss";
 
 function ContainerTags() {

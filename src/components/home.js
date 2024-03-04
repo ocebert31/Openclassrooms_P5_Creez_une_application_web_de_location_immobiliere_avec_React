@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from '../pageAccueil/banner';
-import Container from '../cards/container';
+import Banner from '../pageAccueil/banner/banner';
+import Container from '../pageAccueil/cards/container';
 
 function Home() {
     return (

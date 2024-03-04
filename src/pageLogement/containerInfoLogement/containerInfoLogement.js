@@ -1,9 +1,9 @@
 import React from 'react';
 import "./containerInfoLogement.scss";
-import ContainerTitleInfo from "./containerTitleInfo";
-import ContainerTag from "./container-tags";
-import ContainerInfoProprietaire from '../pageLogement/containerInfoProprietaire';
-import Dropdown from './dropdownLogement';
+import ContainerTitleInfo from "./Title/containerTitleInfo";
+import ContainerTag from "./Tag/container-tags";
+import ContainerInfoProprietaire from '../containerInfoProprietaire/containerInfoProprietaire';
+import Dropdown from './Dropdown/dropdownLogement';
 
 function ContainerInfoLogement () {
     return(

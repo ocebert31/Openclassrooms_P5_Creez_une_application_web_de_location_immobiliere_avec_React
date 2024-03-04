@@ -1,7 +1,7 @@
 import React from 'react';
-import InfoProprietaire from './infoProprietaire';
-import StarRating from './StarRating'; 
-import DataFetcher from './dataFetcher';
+import InfoProprietaire from './Proprietaire/infoProprietaire';
+import StarRating from './Star/StarRating'; 
+import DataFetcher from '../../recuperation-donnee/dataFetcher';
 
 function ContainerInfoProprietaire() {
     return (

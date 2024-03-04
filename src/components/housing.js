@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ContainerImageLogement from "../pageLogement/containerImageLogement";
-import ContainerInfoLogement from "../pageLogement/containerInfoLogement";
+import ContainerImageLogement from "../pageLogement/containerImage/containerImageLogement";
+import ContainerInfoLogement from "../pageLogement/containerInfoLogement/containerInfoLogement";
 import { useParams } from 'react-router-dom';
 import jsonData from '../recuperation-donnee/logement.json';
 

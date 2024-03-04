@@ -1,7 +1,7 @@
 import React from "react";
 import "./container.scss";
 import Card from "./cards";
-import jsonData from "../recuperation-donnee/logement.json";
+import jsonData from "../../recuperation-donnee/logement.json";
 
 function Container() {
     return (

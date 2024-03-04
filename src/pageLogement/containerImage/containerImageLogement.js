@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./containerImageLogement.scss";
 import ArrowBack from "./arrow_back.png";
 import ArrowNext from "./arrow_next.png";
-import DataFetcher from './dataFetcher';
+import DataFetcher from '../../recuperation-donnee/dataFetcher';
 
 function ContainerLogement() {
     // Utiliser useState pour stocker l'index de l'image actuellement affichée

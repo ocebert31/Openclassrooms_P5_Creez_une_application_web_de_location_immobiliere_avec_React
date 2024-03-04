@@ -1,7 +1,7 @@
 import React from 'react';
-import Dropdowns from "../pageApropos/dropdown";
+import Dropdowns from "../../../pageApropos/dropdown/dropdown";
 import "./dropdownLogement.scss";
-import DataFetcher from './dataFetcher';
+import DataFetcher from '../../../recuperation-donnee/dataFetcher';
 
 function Dropdown() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import jsonData from '../recuperation-donnee/logement.json';
+import jsonData from './logement.json';
 
 function DataFetcher({ children }) {
     // Récupérer l'ID de l'URL
