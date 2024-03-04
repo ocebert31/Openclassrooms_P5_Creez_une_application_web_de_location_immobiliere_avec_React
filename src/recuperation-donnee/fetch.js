@@ -4,7 +4,7 @@ const FetchData = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("/logement.json");
+                await fetch("/logement.json");
             } catch {
                 console.log("il y a une erreur dans la récupération des données:");
             }

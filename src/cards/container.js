@@ -1,4 +1,3 @@
-// container.js
 import React from "react";
 import "./container.scss";
 import Card from "./cards";

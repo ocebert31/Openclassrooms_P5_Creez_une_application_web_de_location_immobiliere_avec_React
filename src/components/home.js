@@ -2,8 +2,7 @@ import React from "react";
 import Banner from '../pageAccueil/banner';
 import Container from '../cards/container';
 
-
-export default function Home() {
+function Home() {
     return (
         <div>
             <Banner />
@@ -11,3 +10,5 @@ export default function Home() {
         </div>
     )
 }
+
+export default Home;

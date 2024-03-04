@@ -1,5 +1,6 @@
 $tailleArrow: 7vw;
 $positionArrow: 5%;
+$position-element: absolute;
 
 
 .style-image {
@@ -9,11 +10,14 @@ $positionArrow: 5%;
 
     .main-image {
         width: 100%;
-        padding: 25px 5%;
+        margin: 25px 50px 25px 50px;
+        height: 450px;
+        object-fit: cover;
+        border-radius: 25px;
     }
 
     .arrow-container {
-        position: absolute;
+        position: $position-element;
         top: 50%;
         transform: translateY(-50%);
 
@@ -30,4 +34,11 @@ $positionArrow: 5%;
             right: $positionArrow;
         }
     }
+}
+
+.counter {
+    color: white;
+    font-weight: 500;
+    position: $position-element;
+    top: 85%;
 }

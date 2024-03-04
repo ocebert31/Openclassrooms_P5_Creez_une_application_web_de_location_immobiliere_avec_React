@@ -1,14 +1,15 @@
 $alignement: left;
+$padding: 15px;
 
 .dropdown {
   display: inline-block;
   width: 70%;
-  padding-bottom: 15px;
+  padding-bottom: $padding;
 
   &-header {
     background-color: #FF6060;
     color: white;
-    padding: 15px;
+    padding: $padding;
     cursor: pointer;
     border-radius: 5px;
     text-align: $alignement;
@@ -21,7 +22,7 @@ $alignement: left;
     transition: max-height 0.5s ease;
     max-height: 0; 
     overflow: hidden; 
-    padding-left: 15px;
+    padding-left: $padding;
   }
 
 }

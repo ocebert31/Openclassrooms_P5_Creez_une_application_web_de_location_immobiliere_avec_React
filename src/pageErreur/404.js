@@ -5,9 +5,9 @@ import {Link} from "react-router-dom"
 function erreur404 () {
     return (
         <div>
-            <p className="style-404">404</p>
-            <p className="information-erreur">Oups! La page que vous demandez n'existe pas.</p>
-            <Link to="/" className="lien-retour">Retourner sur la page d’accueil</Link>
+            <p className="style">404</p>
+            <p className="style-information-erreur">Oups! La page que vous demandez n'existe pas.</p>
+            <Link to="/" className="style-lien-retour">Retourner sur la page d’accueil</Link>
         </div>
     )
 }

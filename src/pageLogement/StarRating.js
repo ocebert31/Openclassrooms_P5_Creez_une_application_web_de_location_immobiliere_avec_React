@@ -10,7 +10,7 @@ function StarRating({ rating }) {
     const stars = [];
     for (let i = 0; i < 5; i++) {
         if (i < ratingValue) {
-            stars.push(<img key={i} src={Star} alt="étoile" />);
+            stars.push(<img key={i} src={Star} alt="étoile active" />);
         } else {
             stars.push(<img key={i} src={InactiveStar} alt="étoile inactive" />);
         }

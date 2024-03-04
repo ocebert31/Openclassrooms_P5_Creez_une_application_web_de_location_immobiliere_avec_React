@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.scss'; // Importez le fichier Sass pour le style
+import './header.scss';
 import {Link} from "react-router-dom"
 import Kasa from "./logo-kasa.png"
 
