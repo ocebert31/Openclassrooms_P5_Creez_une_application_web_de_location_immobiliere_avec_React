@@ -5,9 +5,12 @@
     font-weight: 600;
     padding: 5px 10px;
     border-radius: 10px;
-    width: 60px;
     text-align: center;
     margin-right: 15px;
+}
+
+.alignment {
+    display: flex;
 }
 
 @media screen and (min-width: 500px) and (max-width: 650px) {

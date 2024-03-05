@@ -5,21 +5,21 @@ import ContainerTag from "./tag/containerTags";
 import ContainerInfoProprietaire from '../ownerInfoContainer/ownerInfoContainer';
 import Dropdown from './dropdown/housingDropdown';
 
-function ContainerInfoLogement () {
+function ContainerInfoLogement (props) {
     return(
         <div className="style-container">
             <div className='position-info'>
                 <div>
-                    <ContainerTitleInfo />
+                    <ContainerTitleInfo item={props.item}/>
                     <div className='position-tag'>
-                        <ContainerTag />
+                        <ContainerTag item={props.item}/>
                     </div>
                 </div>
                 <div className="position-info-owner">
-                    <ContainerInfoProprietaire />
+                    <ContainerInfoProprietaire item={props.item}/>
                 </div>
             </div>
-            <Dropdown />
+            <Dropdown item={props.item}/>
         </div>
     )
 }

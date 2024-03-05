@@ -1,21 +1,19 @@
 import React from 'react';
 import Dropdowns from "../../../components/common/dropdown";
 import "./housingDropdown.scss";
-import DataFetcher from '../../../recuperation-donnee/dataFetcher';
 
-function Dropdown() {
+function Dropdown(props) {
+    if (!props.item.description) {
+        // Si props.item ou props.item.tags est undefined ou n'est pas un tableau, affichez un message d'erreur ou renvoyez null
+        return null; 
+    }
+
     return (
-        <DataFetcher>
-            {selectedItem => {
-                return (
-                    <div className='container-dropdown'>
-                        <Dropdowns title="Description" options={[selectedItem.description]} />
-                        <div className="dropdown-spacing"></div>
-                        <Dropdowns title="Equipements" options={selectedItem.equipments} />
-                    </div>
-                );
-            }}
-        </DataFetcher>
+        <div className='container-dropdown'>
+            <Dropdowns title="Description" options={[props.item.description]} />
+            <div className="dropdown-spacing"></div>
+            <Dropdowns title="Equipements" options={[props.item.equipments]}/>
+        </div>
     );
 }
 

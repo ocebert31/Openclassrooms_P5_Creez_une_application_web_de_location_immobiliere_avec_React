@@ -1,13 +1,19 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./cardsContainer.scss";
 import Card from "./card";
-import jsonData from "../../recuperation-donnee/logement.json";
+import getDataFromAPI from '../../data/dataFetch';
 
 function Container() {
+    const [data, setdata] = useState([]);
+
+    useEffect ( () => {
+        getDataFromAPI().then(setdata)
+    }, [])
+
     return (
         <article className="container">
             <div className="alignment">
-                {jsonData.map((item) => (
+                { data.map((item) => (
                     <Card key={item.id} id={item.id} title={item.title} cover={item.cover} />
                 ))}
             </div>

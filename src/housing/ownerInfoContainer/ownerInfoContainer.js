@@ -1,19 +1,21 @@
 import React from 'react';
 import InfoProprietaire from './owner/infoOwner';
-import StarRating from './Star/StarRating'; 
-import DataFetcher from '../../recuperation-donnee/dataFetcher';
+import StarRating from './Star/StarRating';
 
-function ContainerInfoProprietaire() {
+function ContainerInfoProprietaire(props) {
+    if (!props.item || !props.item.host) {
+        return null;
+    }
+
     return (
-        <DataFetcher>
-            {selectedItem => (
-                <div>
-                    <InfoProprietaire id={selectedItem.id} name={selectedItem.host.name} picture={selectedItem.host.picture} />
-                    <StarRating rating={selectedItem.rating} />
-                </div>
-            )}
-        </DataFetcher>
+        <div className="container-info-proprietaire" key={props.item.id}>
+            <InfoProprietaire name={props.item.host.name} picture={props.item.host.picture} />
+            <StarRating rating={props.item.rating} />
+        </div>
     );
 }
 
 export default ContainerInfoProprietaire;
+
+
+
