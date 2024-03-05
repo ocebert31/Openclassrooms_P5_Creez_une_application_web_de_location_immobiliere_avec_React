@@ -1,5 +1,5 @@
 import React from 'react';
-import InfoProprietaire from './Proprietaire/infoProprietaire';
+import InfoProprietaire from './owner/infoOwner';
 import StarRating from './Star/StarRating'; 
 import DataFetcher from '../../recuperation-donnee/dataFetcher';
 

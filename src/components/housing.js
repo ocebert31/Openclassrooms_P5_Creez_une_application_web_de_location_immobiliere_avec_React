@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import ContainerImageLogement from "../pageLogement/containerImage/containerImageLogement";
-import ContainerInfoLogement from "../pageLogement/containerInfoLogement/containerInfoLogement";
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
+import HousingImageContainer from "../housing/housingImageContainer/housingImageContainer";
+import HousingInfoContainer from "../housing/housingInfoContainer/housingInfoContainer";
 import jsonData from '../recuperation-donnee/logement.json';
 
 function Housing() {
@@ -22,8 +21,8 @@ function Housing() {
     // Si l'ID existe, on affiche le composant Housing normal
     return (
         <div>
-            <ContainerImageLogement />
-            <ContainerInfoLogement />
+            <HousingImageContainer />
+            <HousingInfoContainer />
         </div>
     );
 }

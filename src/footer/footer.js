@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.scss'; 
-import KasaFooter from "./kasa-footer.png"
+import KasaFooter from "./kasaFooter.png"
 
 function footer() {
   return (

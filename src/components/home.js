@@ -1,14 +1,14 @@
 import React from "react";
-import Banner from '../pageAccueil/banner/banner';
-import Container from '../pageAccueil/cards/container';
+import BannerHome from '../home/banner/banner';
+import CardsContainer from '../home/cards/cardsContainer';
 
-function Home() {
+function home() {
     return (
         <div>
-            <Banner />
-            <Container />
+            <BannerHome />
+            <CardsContainer />
         </div>
     )
 }
 
-export default Home;
+export default home;

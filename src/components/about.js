@@ -1,8 +1,8 @@
 import React from "react";
-import BannerAbout from "../pageApropos/banner/bannerApropos";
-import Dropdown from "../pageApropos/dropdown/dropdown";
+import BannerAbout from "../about/bannerAbout";
+import Dropdown from "../components/common/dropdown";
 
-export default function About() {
+function about() {
     return (
         <div>
             <BannerAbout />
@@ -13,3 +13,5 @@ export default function About() {
         </div>
     )
 }
+
+export default about;

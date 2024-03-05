@@ -7,14 +7,14 @@ $margin: 0;
     color: $color-primary;
     margin: $margin; 
 
-    &-information-erreur {
+    &-info-error {
         font-size: 25px;
         color: $color-primary;
         margin: $margin;
         padding-bottom: 50px;
     }
 
-    &-lien-retour {
+    &-link-back {
         text-decoration: underline;
         color: inherit;
     }

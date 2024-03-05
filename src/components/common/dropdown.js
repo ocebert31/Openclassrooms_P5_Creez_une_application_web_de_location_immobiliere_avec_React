@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './dropdown.scss';
-import arrowImage from './fleche.png';
+import arrowImage from './arrow.png';
 
 const Dropdown = ({ title, options }) => {
   const [isOpen, setIsOpen] = useState(false);

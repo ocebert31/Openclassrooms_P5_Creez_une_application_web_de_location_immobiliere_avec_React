@@ -1,7 +1,7 @@
 import React from 'react';
 import './banner.scss';
 
-function Banner() {
+function banner() {
   return (
     <div class="banner">
       <div className='film'></div>
@@ -11,4 +11,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default banner;

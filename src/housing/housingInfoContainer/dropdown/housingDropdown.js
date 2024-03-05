@@ -1,6 +1,6 @@
 import React from 'react';
-import Dropdowns from "../../../pageApropos/dropdown/dropdown";
-import "./dropdownLogement.scss";
+import Dropdowns from "../../../components/common/dropdown";
+import "./housingDropdown.scss";
 import DataFetcher from '../../../recuperation-donnee/dataFetcher';
 
 function Dropdown() {

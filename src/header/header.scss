@@ -9,7 +9,7 @@ $style-underline: underline;
     align-items: center;
     padding: 40px 50px 0px 50px;
 
-    &__left {
+    &-left {
         img {
             width: 100px;
         }
@@ -17,7 +17,7 @@ $style-underline: underline;
 }
 
 .style {
-    &-accueil {
+    &-home {
         padding-right: $padding-style;
         text-decoration: $any-underline;
         color: $color-initial-link;
@@ -27,7 +27,7 @@ $style-underline: underline;
         }
     }
 
-    &-apropos {
+    &-about {
         padding-left: $padding-style;
         text-decoration: $any-underline;
         color: $color-initial-link;

@@ -1,9 +1,9 @@
 import React from 'react';
-import "./containerInfoLogement.scss";
+import "./housingInfoContainer.scss";
 import ContainerTitleInfo from "./Title/containerTitleInfo";
-import ContainerTag from "./Tag/container-tags";
-import ContainerInfoProprietaire from '../containerInfoProprietaire/containerInfoProprietaire';
-import Dropdown from './Dropdown/dropdownLogement';
+import ContainerTag from "./tag/containerTags";
+import ContainerInfoProprietaire from '../ownerInfoContainer/ownerInfoContainer';
+import Dropdown from './dropdown/housingDropdown';
 
 function ContainerInfoLogement () {
     return(
@@ -15,7 +15,7 @@ function ContainerInfoLogement () {
                         <ContainerTag />
                     </div>
                 </div>
-                <div className="position-info-proprietaire">
+                <div className="position-info-owner">
                     <ContainerInfoProprietaire />
                 </div>
             </div>

@@ -1,11 +1,11 @@
 import React from "react";
-import "./bannerApropos.scss"
-import BannerAbout from "./banner-image.png"
+import "./bannerAbout.scss"
+import BannerAbout from "./bannerImage.png"
 
 function bannerAbout () {
     return (
         <div>
-            <div className="bannerApropos">
+            <div className="bannerAbout">
                 <img src={BannerAbout} alt="décort de la page à propos" />
             </div>
         </div>

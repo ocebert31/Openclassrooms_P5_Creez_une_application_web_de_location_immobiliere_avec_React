@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./containerImageLogement.scss";
+import "./housingImageContainer.scss";
 import ArrowBack from "./arrow_back.png";
 import ArrowNext from "./arrow_next.png";
 import DataFetcher from '../../recuperation-donnee/dataFetcher';
