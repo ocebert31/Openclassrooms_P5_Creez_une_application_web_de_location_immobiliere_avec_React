@@ -1,5 +1,5 @@
 $tailleArrow: 7vw;
-$positionArrow: 5%;
+$positionArrow: 6%;
 $position-element: absolute;
 
 
@@ -42,3 +42,12 @@ $position-element: absolute;
     position: $position-element;
     top: 85%;
 }
+
+@media screen and (max-width: 680px) {
+    /* Styles à appliquer pour les écrans dont la largeur est maximale de 500px */
+    /* Par exemple */
+    .style-image .main-image {
+      height: 300px;
+    }
+  }
+  

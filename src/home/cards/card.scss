@@ -26,3 +26,34 @@ $padding-card: 10px;
     }
 }
 
+@media screen and (min-width: 500px) and (max-width: 730px) {
+    .style-card {
+      width: 28%;
+
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+
+@media screen and (min-width: 500px) and (max-width: 580px) {
+  .style-card p{
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    /* Styles à appliquer pour les écrans dont la largeur est maximale de 500px */
+    /* Par exemple */
+   .style-card {
+    width: 100%;
+   }
+}
+
+@media screen and (max-width: 350px) {
+    /* Styles à appliquer pour les écrans dont la largeur est maximale de 500px */
+    /* Par exemple */
+   .style-card p{
+    font-size: 12px;
+   }
+}

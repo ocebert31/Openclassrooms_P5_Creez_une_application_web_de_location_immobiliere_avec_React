@@ -19,3 +19,14 @@ const FetchData = () => {
 };
 
 export default FetchData;
+
+
+// fetch ('./logement.json').then((response) => {
+//     response = response.json();
+//     response.then((result) => {
+//         console.log(result);
+//     })
+// })
+
+
+  

@@ -5,7 +5,7 @@ function TitleInfo({title, location }) {
     return (
         <div>
             <h1 className='style-title'>{title}</h1>
-            <p>{location}</p>
+            <p className='style-location'>{location}</p>
         </div> 
     )
 }

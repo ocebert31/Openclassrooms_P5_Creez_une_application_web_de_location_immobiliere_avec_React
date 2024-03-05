@@ -10,4 +10,9 @@
     margin-right: 15px;
 }
 
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .container-tag {
+       font-size: 10px;
+    }
+}
 

@@ -36,8 +36,16 @@ $h-v-position-film: 0;
   border-radius: $radius;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 500px) and (max-width: 730px) {
   .banner {
-    font-size: 16px;
+    font-size: 18px;
   }
+}
+
+@media screen and (max-width: 500px) {
+  /* Styles à appliquer pour les écrans dont la largeur est maximale de 500px */
+  /* Par exemple */
+ .banner{
+  font-size: 14px;
+ }
 }

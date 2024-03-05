@@ -38,3 +38,16 @@ $style-underline: underline;
     }
 }
 
+@media screen and (max-width: 375px) {
+    .style {
+
+        &-home{
+            font-size: 10px;
+        }
+       
+        &-about{
+            font-size: 10px;
+        }
+    }
+}
+  
