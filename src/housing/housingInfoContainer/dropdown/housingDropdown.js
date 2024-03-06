@@ -8,13 +8,18 @@ function Dropdown(props) {
         return null; 
     }
 
+    const equipments = props.item.equipments.map((elem, index) => (
+        <li key={index}>{elem}</li>
+    ));
+
     return (
         <div className='container-dropdown'>
             <Dropdowns title="Description" options={[props.item.description]} />
             <div className="dropdown-spacing"></div>
-            <Dropdowns title="Equipements" options={[props.item.equipments]}/>
+            <Dropdowns title="Equipements" options={[equipments]}/>
         </div>
     );
 }
 
 export default Dropdown;
+

@@ -7,11 +7,11 @@ $position-element: absolute;
     position: relative;
     display: flex;
     justify-content: center;
+    margin: 25px 50px 25px 50px;
 
     .main-image {
         width: 100%;
-        margin: 25px 50px 25px 50px;
-        height: 900px;
+        height: 600px;
         object-fit: cover;
         border-radius: 25px;
     }

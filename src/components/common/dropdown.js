@@ -10,7 +10,7 @@ const Dropdown = ({ title, options }) => {
     setIsOpen(!isOpen);
     setIsArrowRotated(!isArrowRotated);
   };
-
+  console.log(options);
   return (
     <div className={`dropdown ${isOpen ? 'open' : ''}`}>
       <div className="dropdown-header" onClick={toggleDropdown}>
