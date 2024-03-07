@@ -3,7 +3,7 @@ import "./housingInfoContainer.scss";
 import ContainerTitleInfo from "./Title/containerTitleInfo";
 import ContainerTag from "./tag/containerTags";
 import ContainerInfoProprietaire from '../ownerInfoContainer/ownerInfoContainer';
-import Dropdown from './dropdown/housingDropdown';
+import HousingDropdown from './dropdown/housingDropdown';
 
 function ContainerInfoLogement (props) {
     return(
@@ -19,7 +19,7 @@ function ContainerInfoLogement (props) {
                     <ContainerInfoProprietaire item={props.item}/>
                 </div>
             </div>
-            <Dropdown item={props.item}/>
+            <HousingDropdown item={props.item}/>
         </div>
     )
 }
