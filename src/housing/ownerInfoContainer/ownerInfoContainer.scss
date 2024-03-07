@@ -1,0 +1,9 @@
+@media screen and (max-width: 500px) {
+    .container-info-proprietaire {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+

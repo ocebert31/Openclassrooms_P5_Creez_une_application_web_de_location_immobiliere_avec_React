@@ -25,3 +25,18 @@
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    .position-profile {
+        padding: 0px;
+        p{
+            font-size: 3vw;
+            padding-right: 5px;
+        }
+    
+        img {
+            width: 15vw;
+            height: 15vw;
+        }
+    }
+}
