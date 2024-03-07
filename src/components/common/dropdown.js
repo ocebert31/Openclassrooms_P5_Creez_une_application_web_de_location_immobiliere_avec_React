@@ -18,7 +18,7 @@ const Dropdown = ({ title, options }) => {
       </div>
       <div className="dropdown-content">
         {options.map((option, index) => (
-          <div key={index}>{option}</div>
+          <div className='design' key={index}>{option}</div>
         ))}
       </div>
     </div>
