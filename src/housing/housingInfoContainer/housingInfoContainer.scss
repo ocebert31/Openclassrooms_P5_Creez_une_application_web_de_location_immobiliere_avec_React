@@ -1,9 +1,11 @@
+$position: flex;
+
 .style-container {
     background-color: rgb(255, 255, 255);
 }
 
 .position-tag {
-    display: flex;
+    display: $position;
 }
 
 .dropdown-spacing {
@@ -11,7 +13,7 @@
 }
 
 .position-info {
-    display: flex;
+    display: $position;
     justify-content: space-between;
     margin: 0px 65px 20px 65px;
 }

@@ -1,10 +1,13 @@
+$center: center;
+$position: flex;
+
 .footer {
     background-color: black;
     padding-top: 30px;
-    display: flex;
+    display: $position;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: $center;
+    align-items: $center;
 
     &_top {
         img {
@@ -15,9 +18,9 @@
 
     &_bottom {
         color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: $position;
+        justify-content: $center;
+        align-items: $center;
         width: 100%;
     }
 }

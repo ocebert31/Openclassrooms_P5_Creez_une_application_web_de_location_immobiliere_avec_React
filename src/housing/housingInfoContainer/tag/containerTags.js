@@ -3,7 +3,6 @@ import "./containerTags.scss";
 
 function ContainerTags(props) {
     if (!props.item.tags) {
-        // Si props.item ou props.item.tags est undefined ou n'est pas un tableau, affichez un message d'erreur ou renvoyez null
         return null; 
     }
 

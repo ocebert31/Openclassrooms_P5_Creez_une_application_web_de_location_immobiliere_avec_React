@@ -1,7 +1,7 @@
 import React from "react";
 import BannerAbout from "../about/bannerAbout";
 import Dropdown from "../components/common/dropdown";
-import "./about.scss"
+import "./about.scss";
 
 function About() {
     return (

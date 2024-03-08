@@ -4,7 +4,7 @@ import "./housingDropdown.scss";
 
 function HousingDropdown(props) {
   if (!props.item.description) {
-    return null; // Si props.item ou props.item.tags est undefined ou n'est pas un tableau, affichez un message d'erreur ou renvoyez null
+    return null;
   }
 
   return (

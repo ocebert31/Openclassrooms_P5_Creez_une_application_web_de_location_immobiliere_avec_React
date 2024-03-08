@@ -1,3 +1,5 @@
+$size: 15vw;
+
 .position-profile {
     display: flex;
     padding-bottom: 20px;
@@ -35,8 +37,8 @@
         }
     
         img {
-            width: 15vw;
-            height: 15vw;
+            width: $size;
+            height: $size;
         }
     }
 }

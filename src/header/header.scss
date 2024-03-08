@@ -2,6 +2,7 @@ $padding-style: 20px;
 $color-initial-link: inherit;
 $any-underline: none;
 $style-underline: underline;
+$font-size-mobile: 10px;
 
 .header {
     display: flex;
@@ -42,19 +43,17 @@ $style-underline: underline;
     .style {
 
         &-home{
-            font-size: 10px;
+            font-size: $font-size-mobile;
         }
        
         &-about{
-            font-size: 10px;
+            font-size: $font-size-mobile;
         }
     }
 }
 
 
 @media screen and (max-width: 500px) {
-    /* Styles à appliquer pour les écrans dont la largeur est maximale de 500px */
-    /* Par exemple */
     .header {
         padding: 10px 30px 10px 30px;
     }

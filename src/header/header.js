@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.scss';
-import {Link} from "react-router-dom"
-import LogoKasa from "./logoKasa.png"
+import {Link} from "react-router-dom";
+import LogoKasa from "./logoKasa.png";
 
 function header() {
   return (

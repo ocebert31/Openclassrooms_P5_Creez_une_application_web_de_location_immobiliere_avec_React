@@ -1,14 +1,14 @@
+$hidden-element: none;
+
 .container-dropdown {
     display: flex;
     margin: 0px 65px 20px 65px;
 }
 
 li {
-    list-style-type: none; /* Enlève les puces */
+    list-style-type: $hidden-element;
     line-height: 2;
 }
-
-
 
 @media screen and (min-width: 500px) and (max-width: 650px) {
     .container-dropdown {
@@ -24,6 +24,6 @@ li {
     }
 
     .dropdown-spacing {
-        display: none;
+        display: $hidden-element;
     }
 }

@@ -43,9 +43,7 @@ $h-v-position-film: 0;
 }
 
 @media screen and (max-width: 500px) {
-  /* Styles à appliquer pour les écrans dont la largeur est maximale de 500px */
-  /* Par exemple */
- .banner{
-  font-size: 14px;
- }
+  .banner{
+    font-size: 14px;
+  }
 }

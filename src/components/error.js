@@ -1,5 +1,5 @@
-import React from "react"
-import Error404 from "../error/404"
+import React from "react";
+import Error404 from "../error/404";
 
 function error() {
     return (

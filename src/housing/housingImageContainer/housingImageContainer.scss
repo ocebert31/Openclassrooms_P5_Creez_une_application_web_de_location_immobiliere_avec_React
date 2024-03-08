@@ -44,19 +44,15 @@ $position-element: absolute;
 }
 
 @media screen and (max-width: 680px) {
-    /* Styles à appliquer pour les écrans dont la largeur est maximale de 500px */
-    /* Par exemple */
     .style-image .main-image {
       height: 300px;
     }
-  }
+}
 
 
 
-  @media screen and (max-width: 500px) {
-    /* Styles à appliquer pour les écrans dont la largeur est maximale de 500px */
-    /* Par exemple */
+@media screen and (max-width: 500px) {
     .style-image {
         margin: 10px 30px 10px 30px;
     }
-  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import Star from "./star-active.png"
+import Star from "./star-active.png";
 import InactiveStar from "./star-inactive.png";
 import "./starRating.scss";
 
