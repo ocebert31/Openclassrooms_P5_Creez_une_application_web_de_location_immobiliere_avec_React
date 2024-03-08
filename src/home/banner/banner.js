@@ -3,7 +3,7 @@ import './banner.scss';
 
 function banner() {
   return (
-    <div class="banner">
+    <div className="banner">
       <div className='film'></div>
       <p>Chez vous, partout et ailleurs</p>
     </div>
