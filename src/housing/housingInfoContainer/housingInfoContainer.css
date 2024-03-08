@@ -1,0 +1,30 @@
+.style-container {
+  background-color: rgb(255, 255, 255);
+}
+
+.position-tag {
+  display: flex;
+}
+
+.dropdown-spacing {
+  padding: 30px;
+}
+
+.position-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 65px 20px 65px;
+}
+
+.position-info-owner {
+  align-items: baseline;
+}
+
+@media screen and (max-width: 500px) {
+  .position-info {
+    display: block;
+    margin: 0px 30px 0px 30px;
+  }
+}
+
+/*# sourceMappingURL=housingInfoContainer.css.map */

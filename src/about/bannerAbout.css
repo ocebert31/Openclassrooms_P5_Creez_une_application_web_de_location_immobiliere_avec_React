@@ -1,0 +1,16 @@
+.bannerAbout {
+  margin: 20px;
+}
+.bannerAbout img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 520px) {
+  .bannerAbout img {
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=bannerAbout.css.map */

@@ -6,10 +6,16 @@
   height: max-content;
 }
 
-.alignement {
+.alignment {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-/*# sourceMappingURL=container.css.map */
+@media screen and (min-width: 500px) and (max-width: 730px) {
+  .container {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=cardsContainer.css.map */

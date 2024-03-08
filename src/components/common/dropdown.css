@@ -1,27 +1,32 @@
 .dropdown {
   display: inline-block;
   width: 70%;
-  padding-bottom: 15px;
 }
 .dropdown-header {
+  display: flex;
+  align-items: center;
   background-color: #FF6060;
   color: white;
-  padding: 15px;
+  height: 50px;
+  padding: 0 15px;
   cursor: pointer;
   border-radius: 5px;
   text-align: left;
 }
 .dropdown-content {
+  display: flex;
+  flex-direction: column;
   background-color: rgba(246, 246, 246, 0.45);
+  height: auto;
   text-align: left;
-  font-size: 18px;
+  font-size: 14px;
   transition: max-height 0.5s ease;
   max-height: 0;
   overflow: hidden;
 }
 
 .arrow {
-  float: right;
+  margin-left: auto;
   transition: transform 0.5s ease;
 }
 
@@ -31,6 +36,17 @@
 
 .dropdown.open .dropdown-content {
   max-height: 200px;
+}
+
+.design {
+  padding: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .dropdown {
+    width: 90%;
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=dropdown.css.map */
