@@ -1,6 +1,6 @@
 import React from 'react';
 import InfoProprietaire from './owner/infoOwner';
-import StarRating from './star/StarRating';
+import StarRating from './Star/StarRating';
 import "./ownerInfoContainer.scss";
 
 function ContainerInfoProprietaire(props) {
