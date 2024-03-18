@@ -1,7 +1,7 @@
 import React from 'react';
 import InfoProprietaire from './owner/infoOwner';
 import StarRating from './Star/StarRating';
-import "./ownerInfoContainer.scss";
+import "./ownerInfoContainer.css";
 
 function ContainerInfoProprietaire(props) {
     if (!props.item || !props.item.host) {

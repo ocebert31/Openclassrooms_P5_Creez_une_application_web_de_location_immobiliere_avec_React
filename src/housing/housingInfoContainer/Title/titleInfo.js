@@ -1,5 +1,5 @@
 import React from 'react';
-import "./titleInfo.scss";
+import "./titleInfo.css";
 
 function TitleInfo({title, location }) { 
     return (

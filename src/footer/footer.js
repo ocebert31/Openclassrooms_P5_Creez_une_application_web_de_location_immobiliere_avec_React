@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.scss'; 
+import './footer.css'; 
 import KasaFooter from "./kasaFooter.png";
 
 function footer() {

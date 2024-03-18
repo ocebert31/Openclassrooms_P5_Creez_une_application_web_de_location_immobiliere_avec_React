@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import "./cardsContainer.scss";
+import "./cardsContainer.css";
 import Card from "./card";
 import getDataFromAPI from '../../data/dataFetch';
 

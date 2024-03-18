@@ -1,5 +1,5 @@
 import React from 'react';
-import "./infoOwner.scss";
+import "./infoOwner.css";
 
 function InfoProprietaire({name, picture }) {
     return (

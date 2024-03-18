@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./housingImageContainer.scss";
+import "./housingImageContainer.css";
 import ArrowBack from "./arrow_back.png";
 import ArrowNext from "./arrow_next.png";
 

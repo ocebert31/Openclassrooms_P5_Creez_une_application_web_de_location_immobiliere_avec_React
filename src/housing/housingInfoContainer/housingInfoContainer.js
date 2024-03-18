@@ -1,5 +1,5 @@
 import React from 'react';
-import "./housingInfoContainer.scss";
+import "./housingInfoContainer.css";
 import ContainerTitleInfo from "./Title/containerTitleInfo";
 import ContainerTag from "./tag/containerTags";
 import ContainerInfoProprietaire from '../ownerInfoContainer/ownerInfoContainer';

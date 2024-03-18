@@ -1,7 +1,7 @@
 import React from 'react';
 import Star from "./star-active.png";
 import InactiveStar from "./star-inactive.png";
-import "./starRating.scss";
+import "./starRating.css";
 
 function StarRating({ rating }) {
     // Convertir la note en nombre entier

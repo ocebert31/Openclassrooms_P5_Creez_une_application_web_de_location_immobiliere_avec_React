@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './dropdown.scss';
+import './dropdown.css';
 import arrowImage from './arrow.png';
 import DropdownContent from './dropdownContent';
 

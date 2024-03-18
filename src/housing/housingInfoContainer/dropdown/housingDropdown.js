@@ -1,6 +1,6 @@
 import React from 'react';
 import Dropdown from "../../../components/common/dropdown";
-import "./housingDropdown.scss";
+import "./housingDropdown.css";
 
 function HousingDropdown(props) {
   if (!props.item.description) {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./bannerAbout.scss";
+import "./bannerAbout.css";
 import BannerAbout from "./bannerImage.png";
 
 function bannerAbout () {

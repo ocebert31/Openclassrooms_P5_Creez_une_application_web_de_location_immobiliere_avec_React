@@ -1,5 +1,5 @@
 import React from 'react';
-import "./containerTitleInfo.scss";
+import "./containerTitleInfo.css";
 import TitleInfo from './titleInfo';
 
 function ContainerTitleInfo(props) {

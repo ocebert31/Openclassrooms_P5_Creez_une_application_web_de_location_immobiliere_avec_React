@@ -1,5 +1,5 @@
 import React from 'react';
-import "./containerTags.scss";
+import "./containerTags.css";
 
 function ContainerTags(props) {
     if (!props.item.tags) {
