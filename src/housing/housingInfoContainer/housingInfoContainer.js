@@ -1,6 +1,6 @@
 import React from 'react';
 import "./housingInfoContainer.css";
-import ContainerTitleInfo from "./Title/containerTitleInfo";
+import ContainerTitleInfo from "./title/containerTitleInfo";
 import ContainerTag from "./tag/containerTags";
 import ContainerInfoProprietaire from '../ownerInfoContainer/ownerInfoContainer';
 import HousingDropdown from './dropdown/housingDropdown';
